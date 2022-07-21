@@ -1,0 +1,537 @@
+/*https://rr2---sn-fja-q5j6.googlevideo.com/videoplayback?expire=1658416652&ei=rBnZYtHlCYjpgQf15ILoBg&ip=188.74.210.33&id=o-ACgEQWBy8yHxgged3CGls9dh-PNksihJqrVECtXpqpAg&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=535878375&ratebypass=yes&dur=14659.686&lmt=1658352193342371&fexp=24001373,24007246&c=ANDROID&txp=6219224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgK25Zas3UBsuUJzA1gK2X78UB4jiv_Ysbv2dALyghKjcCICyRIRryM6vpuJGWTlIELvaoQB4nKpWlLUFdVlk9_4cG&title=Y2Mate.is%20-%20Syndicate%20%20Afran%20Nishu%20new%20web%20series%20available%20on%20chorki%20%20new%202022%20%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A1%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F-J2EJEAJKkxA-360p-1658415582145&redirect_counter=1&rm=sn-hpa6d7l&req_id=9c4e3255ff62a3ee&cms_redirect=yes&ipbypass=yes&mh=Ed&mip=103.112.236.65&mm=31&mn=sn-fja-q5j6&ms=au&mt=1658415210&mv=m&mvi=2&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhALkwJYjtQ0dwQs6PC0mQdh9Hq12mBvPAC9t9sT8Igc2SAiBU8P9Y_nLeTEWzSBFNJyyCywgCslsGcUKCjYngAsIX0g%3D%3D*/
+
+/*style for app component*/
+*{
+  margin: 0px;
+}
+body{
+  background-color: #fafafa;
+
+}
+
+
+/*animation*/
+#animation-grid-1{
+  background-color: rgb(62, 97, 212);
+  height: 40%;
+  width: 2px;
+position: fixed;
+right: 20px;
+bottom:-40%;
+z-index: 9999;
+}
+
+#animation-grid-2{
+  background-color: rgb(184, 181, 181);
+  height: 30%;
+  width: 2px;
+position: fixed;
+right: 27px;
+bottom:-30%;
+z-index: 9999;
+}
+
+#animation-grid-3{
+  background-color: rgb(124, 121, 121);
+  height: 2px;
+  width: 40%;
+position: fixed;
+right: -40%;
+bottom:20px;
+z-index: 9999;
+}
+
+#animation-grid-4{
+  background-color: rgb(137, 153, 247);
+  height: 2px;
+  width: 30%;
+position: fixed;
+right: -40%;
+bottom:28px;
+z-index: 9999;
+}
+
+
+/*/animation*/
+
+.a{
+  color: black;
+  text-decoration: none;
+}
+#header #b-1{
+  font-size: 20px;
+  padding: 5%;
+}
+#header #b-2{
+  font-size: 20px;
+  color: rgb(125, 188, 240);
+}
+#header{
+  background-color: rgb(253, 251, 251);
+  width: 100%;
+  height: 60px;
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+}
+
+
+#header-1{
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  top: 45px;
+  position: fixed;
+  z-index: 9999;
+}
+
+
+#search-btn{
+  float: right;
+  text-decoration: none;
+  color: rgb(241, 229, 229);
+  background-color: rgb(51, 108, 230);
+  width: 30px;
+  height: 31px;
+  margin:7px;
+  padding-right: 7px;
+  border-right: 2px solid black;
+  border-radius: 2px;
+}
+
+
+#in-1{    
+  border-radius:2px;
+  border: 0px;
+  border-left: 2px solid black;
+  
+  margin:7px;
+  font-size: 25px;
+  width: 30%;
+  float: right;
+  
+  background-color: rgb(223, 223, 223);
+  }
+
+
+
+
+  .link{
+    margin: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(106, 160, 241);
+  
+    
+  }
+  .active-1{
+    margin: 30px;
+    font-size: 20px;
+    text-decoration: none;
+  background-color: rgb(91, 153, 235);
+  color: black;
+  
+  }
+
+  #nav{
+    background-color:rgb(29, 28, 28) ;
+    height: 40px;
+    width: 350px;
+    left:100px;
+    position: absolute;
+  }
+
+
+
+
+  #s-div{
+    top:0px;
+    position: fixed;
+    background-color: black;
+    opacity: 0.7;
+    width: 0%;
+    height: 0%;
+    z-index: 9999;
+    color: aliceblue;
+    
+  }
+  #s-div span{
+    font-size: 20px;
+    color: aliceblue;
+    float: right;
+    margin: 15px;
+    
+  }
+  
+  #s-div #in{
+    width: 0px;
+    font-size: 20px;
+    color: rgb(66, 158, 233);
+    background-color: transparent;
+    border-bottom: 5px solid rgb(69, 149, 224);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+    caret-color: rgb(87, 171, 219);
+    outline: 0px;
+    display: none;
+  }
+  #s-div ::placeholder{
+    text-align: center;
+  }
+
+
+
+
+
+.input{
+  width: 60%;
+}
+.input-2{
+  width: 80%;
+  height: 100px;
+  border:2px solid rgb(192, 191, 191);
+}
+
+.progress{
+  height: 5px;
+  width: 80%;
+}
+
+
+.file_upload{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.App{
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.form_image{
+  width: 100px;
+}
+
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+/*__style for app component__*/
+
+.sign_up{
+  float: right;
+  padding:20px;
+  
+}
+
+
+.sign_up_2{
+  top:10px;
+  right:15%;
+  display: flex;
+  flex-direction: row;
+  padding:2px;
+  position: fixed;
+
+}
+.h1{
+  color: rgb(53, 88, 243);
+}
+.post_container{
+  margin-top: 100px;
+  margin-left: 205px;
+  display: inline-block;
+}
+.about_container{
+  margin-top: 100px;
+  margin-left: 205px;
+  width: 500px;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+
+.footer_container{
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 500px;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+
+
+#feed{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.side{
+  display: inline-block;
+  padding: 100px;
+  position: fixed;
+  right: 15%;
+}
+
+.side b{
+  color: rgb(158, 157, 157);
+  font-weight: 300px;
+}
+
+
+.suggestion{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+
+#likers_head{
+  border-bottom: 2px solid lightgray;
+  width: 100%;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(65, 63, 63); 
+
+  height: 10px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a09c98; 
+  transition: 1s;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+    #i-bar-2{
+      text-decoration: none;
+      margin: 5px;
+      position: absolute;
+      color: rgb(245, 243, 239);
+      font-size: 22px;
+      text-decoration: none;
+      }
+
+
+
+
+
+
+
+.suggestion h5{
+  text-align: center;
+  font-weight: 900px;
+  font-size: 13px;
+color: rgb(47, 48, 47);
+}
+/*style for post component*/
+.post{
+  max-width:600px ;
+background-color: white;
+border:1px solid lightgray;
+border-radius: 1px;
+margin-bottom: 45px;
+}
+
+.first_paper{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header_image{
+  height: 50px;
+  margin: 5px;
+  margin-left: 10%;
+}
+
+#footer #line i{
+  font-size: larger;
+}
+#footer #line{
+  color: black;
+  width: 500px;
+  border-left: 2px solid black;
+  margin-left: 300px;
+  white-space: pre-wrap;
+}
+
+#footer{
+width: 100%;
+height: 200px;
+border-top: 1px solid rgb(156, 155, 155);
+background-color: rgb(243, 241, 241);
+color: rgb(20, 15, 15);
+
+}
+.nav_avatar{
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+
+
+#no-vis{
+  display: none;
+}
+.post_avatar{
+  margin-right: 10px;
+}
+.image_post{
+width: 100%;
+
+
+}
+
+.post_text{
+  font-weight: normal;
+  padding: 10px;
+}
+
+
+#avatar-head{
+  font-size: 25px;
+  font-weight: normal;
+  color: black;
+  padding-right:20px;
+  padding-top: 5px;
+}
+
+#heart-1{
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(66, 65, 65);
+  padding:10px;
+}
+#heart-2{
+  font-size: 25px;
+
+  color: rgb(255, 36, 36);
+  padding:10px;
+}
+
+.post_header{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.comment .in-put{
+  border:0px;
+  width: 70%;
+  padding:20px;
+  outline: 0px;
+}
+
+.pil{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.pil .second{
+  overflow-x: hidden;
+overflow-y: scroll;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pil .second .post_header2{
+padding: 10px;
+float: left;
+display: flex;
+  flex-direction: row;
+
+  text-align: center;
+}
+.pil .second .post_header{
+  width: 100%;
+border-bottom: 1px solid lightgray;
+float: left;
+}
+
+.comments-see{
+  color: rgb(138, 138, 137);
+  padding: 10px;
+}
+.header_text{
+  color: rgb(2, 25, 56);
+  font-weight:400;
+  border-bottom: 1px solid rgb(24, 138, 214);
+}
+.comment .btn{
+  border:0px;
+  padding:18px;
+  color: rgb(67, 138, 231);
+  font-weight: 600;
+  float: right;
+  display: inline-block;
+}
+
+.comment .btn-2{
+  border:0px;
+  padding:18px;
+  color: rgb(82, 177, 231);
+  font-weight: 600;
+  float: right;
+  display: inline-block;
+}
+
+
+
+.comment{
+ width: 100%;
+  object-fit: contain;
+  border-top: 1px solid rgb(226, 226, 226);
+  height: 55px;
+bottom: 0px;
+
+}
+
+/*__style for post component__*/
+
+
+.footer{
+  border-top: 2px solid rgb(207, 203, 203);
+  width: 100%;
+  bottom: 0px;
+  
+  font-size: large;
+  color: #5a5957;
+}
+
+
+
+.footer a{
+  color: #5a5957;
+  text-decoration: none;
+}
+
+
+.footer #a{
+  color: #5a5957;
+  text-decoration: none;
+  border-right:2px solid gray
+}
+
+
+
+
